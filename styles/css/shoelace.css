@@ -1,3 +1,7 @@
+/*
+headers
+*/
+
 h1,
 h2,
 h3,
@@ -5,42 +9,108 @@ h4,
 h5,
 h6 {
   font-family: fantasy;
-
+  font-weight: bold;
 }
 
 h1 {
-
+  font-size: 40px;
 }
 
 h2 {
-
+  font-size: 35px;
 }
 
 h3 {
-
+  font-size: 30px;
 }
 
 h4 {
-
+  font-size: 25px;
 }
 
 h5 {
-
+  font-size: 20px;
 }
 
 h6 {
-
+  font-size: 15px;
+}
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+  font-weight: normal;
+  color: #7D7070;
 }
 
-b {
-
+h1 small {
+  font-size: 37.5px;
 }
+
+h2 small {
+  font-size: 31px;
+}
+
+h3 small {
+  font-size: 26.5px;
+}
+
+h4 small {
+  font-size: 22px;
+}
+
+h5 small {
+  font-size: 17.5px;
+}
+
+h6 small {
+  font-size: 12.5px
+}
+
+/*
+body copy
+*/
+
+body {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.lead {
+  font-family: sans-serif;
+  font-size: 17px;
+}
+
+
+p {
+  margin-bottom: 15px;
+}
+
+/*
+address
+*/
 
 address {
+  display: block;
+  font-style: initial;
+  margin-bottom: 10px;
+  line-height: 17px;
+}
+
+/*
+blockquotes
+
+
+blockquote {
+  border-left:
+}
+*/
+blockquote p {
 
 }
 
-blockquote {
+blockquote small {
 
 }
 
