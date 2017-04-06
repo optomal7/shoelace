@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="styles/css/shoelace.css" rel="stylesheet" type="text/css" />
+  <link href="styles/css/shoelace.css" rel="stylesheet" type="text.css">
   <title>BootStrap</title>
 </head>
-<link rel="stylesheet" type="text/css" href="learnersg.css" media="screen"/>
+
 <body class="bodycopy">
 
 <ol class="breadcrumb">
   <li><a href="#">Home</a></li>
-  <li><a href="#">Library</a></li>
+  <li class="active2"><a href="#">Library</a></li>
   <li class="active">Data</li>
 </ol>
 <!-- BreadCrumbs -->
@@ -48,8 +48,7 @@
 </nav>
 <!-- Pagination -->
 
-<a href="#">Inbox <span class="badge">42</span></a>
-
+<a class="badges" href="#">Inbox <span class="badge">42</span></a>
 <button class="btn btn-primary" type="button">
   Messages <span class="badge">4</span>
 </button>
@@ -59,29 +58,35 @@
   <h1>Example page header<small>Subtext for header</small></h1>
 </div>
 <!-- Page Header -->
-
+<div class="heading2">
 <h1>h1. Bootstrap heading <small>by Heindrick John Ryan</small></h1>
 <h2>h2. Bootstrap heading <small>Secondary text</small></h2>
 <h3>h3. Bootstrap heading <small>Secondary text</small></h3>
 <h4>h4. Bootstrap heading <small>Secondary text</small></h4>
 <h5>h5. Bootstrap heading <small>Secondary text</small></h5>
 <h6>h6. Bootstrap heading <small>Secondary text</small></h6>
+
 <!-- Headings -->
 
 <h3>Example heading <span class="label label-default">New</span></h3>
 <!-- Label -->
+</div>
+<div class="container">
 
-<div class="row">
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="http://media.caranddriver.com/images/media/51/2017-10best-lead-photo-672628-s-original.jpg" alt="...">
-      <div class="caption">
-        <h3>Thumbnail label</h3>
-        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-      </div>
-    </div>
+      <a href="http://media.caranddriver.com/images/media/51/2017-10best-lead-photo-672628-s-original.jpg" class="thumbnail">
+        <img class="thumbnail" src="http://media.caranddriver.com/images/media/51/2017-10best-lead-photo-672628-s-original.jpg" alt="...">
+      </a>
+  <a href="http://media.caranddriver.com/images/media/51/2017-10best-lead-photo-672628-s-original.jpg" class="thumbnail">
+          <img class="thumbnail" src="http://media.caranddriver.com/images/media/51/2017-10best-lead-photo-672628-s-original.jpg" alt="...">
+  </a>
+    <a href="http://media.caranddriver.com/images/media/51/2017-10best-lead-photo-672628-s-original.jpg" class="thumbnail">
+            <img class="thumbnail" src="http://media.caranddriver.com/images/media/51/2017-10best-lead-photo-672628-s-original.jpg" alt="...">
+    </a>
+      <a href="http://media.caranddriver.com/images/media/51/2017-10best-lead-photo-672628-s-original.jpg" class="thumbnail">
+              <img class="thumbnail" src="http://media.caranddriver.com/images/media/51/2017-10best-lead-photo-672628-s-original.jpg" alt="...">
+      </a>
   </div>
+
 </div>
 
 <!-- Thumbnails -->
@@ -102,7 +107,7 @@
 </div>
 <!-- Basic Panels -->
 
-<p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
+<p class="para">Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
 
 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor <mark>fringilla.</mark> Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.
 
@@ -128,8 +133,9 @@ Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
 <!-- List Group -->
 
 <address>
+  <strong>Learners Guild</strong><br>
   571 12th Avenue<br>
-  San Francisco, CA 94118
+  San Francisco, CA 94118<br>
   <abbr title="Phone">P:</abbr> (415) 688-0153
 </address>
 <address>
