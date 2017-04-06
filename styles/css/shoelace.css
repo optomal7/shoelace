@@ -1,0 +1,248 @@
+/*
+headers
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: fantasy;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 15px;
+}
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+  font-weight: normal;
+  color: #7D7070;
+}
+
+h1 small {
+  font-size: 37.5px;
+}
+
+h2 small {
+  font-size: 31px;
+}
+
+h3 small {
+  font-size: 26.5px;
+}
+
+h4 small {
+  font-size: 22px;
+}
+
+h5 small {
+  font-size: 17.5px;
+}
+
+h6 small {
+  font-size: 12.5px
+}
+
+/*
+body copy
+*/
+
+body {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.lead {
+  font-family: sans-serif;
+  font-size: 17px;
+}
+
+
+p {
+  margin-bottom: 15px;
+}
+
+/*
+address
+*/
+
+address {
+  display: block;
+  font-style: initial;
+  margin-bottom: 10px;
+  line-height: 17px;
+}
+
+/*
+blockquotes
+
+
+blockquote {
+  border-left:
+}
+*/
+blockquote p {
+
+}
+
+blockquote small {
+
+}
+
+.well {
+  height: 50px;
+  width: 96%;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: left;
+  vertical-align: middle;
+  padding-top:30px;
+  padding-left: 15px;
+  display: inline-block;
+  margin: 15px;
+}
+
+.panel-heading {
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-top: 15px;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.1);
+  text-align: left;
+  vertical-align: middle;
+  margin: 15px 15px 0px 15px;
+  height: 50px;
+  width: 800px;
+  border-radius: 5px 5px 0px 0px;
+  background-color: lightblue;
+  border: 1px solid lightblue;
+
+
+}
+.panel-body {
+padding-top: 30px;
+padding-left: 15px;
+border-radius: 0px 0px 5px 5px;
+text-align: left;
+vertical-align: middle;
+margin: 0px 15px 15px 15px;
+height: 50px;
+width: 800px;
+background: rgba(0, 0, 0, 0.02);
+border: 1px solid lightblue;
+}
+
+.list-group-item {
+  padding: 10px;
+  padding-left: 15px;
+  padding-bottom: 1px;
+  text-align: left;
+  vertical-align: middle;
+  margin: 0px 0px 0px -24px;
+  height: 30px;
+  width: 800px;
+  background: rgba(0, 0, 0, 0.02);
+  border: 1px solid lightgray;
+  list-style-type: none;
+  }
+
+  .list-group {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 3px;
+
+
+}
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  margin-left: 15px;
+  width: 777px;
+}
+
+.img {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 150px; /* Set a small width */
+}
+
+.btn-group {
+background-color: lightcyan;
+color: black;
+font-family: sans-serif;
+padding: 10px 5px 10px 5px;
+font-size: 12px;
+}
+
+.btn-toolbar {
+background-color: lightcyan;
+color: black;
+font-family: sans-serif;
+padding: 10px 5px 10px 5px;
+font-size: 12px;
+}
+
+/* Ask about "btn btn default"
+btn btn-default {} */
+/* JoHN CSS */
+
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+}
+
+.label {
+border-radius: 5px;
+font-weight: bold;
+}
+
+.jumbotron {
+border-radius: 2px;
+background-color: lightcyan;
+color: black;
+font-family: serif;
+}
+
+.page-header {
+color: black;
+font-family: sans-serif;
+padding: 20px 10px 20px 10px;
+}
+
+.badge {
+  float: center;
+  overflow: auto;
+  background-color: solid blue;
+  font-weight: bold;
+  border-radius: 3px;
+}
